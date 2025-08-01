@@ -39,17 +39,17 @@ Watch a quick demo of the website in action:
 ## 📁 Folder Structure
 
 Foodie-Website/
-├── assets/ # Images (food items, icons, etc.)
-├── index.html # Main HTML file
-├── style.css # Custom CSS styles
-├── script.js # JavaScript functionality (in progress)
-└── README.md # Project description and usage
+├── assets/ # Images (food items, icons, etc.)<br>
+├── index.html # Main HTML file<br>
+├── style.css # Custom CSS styles<br>
+├── script.js # JavaScript functionality (in progress)<br>
+└── README.md # Project description and usage<br>
 
 ## 📅 Current Status
 
-- HTML & CSS: ✅ Completed  
-- Responsive Design: ✅ Completed  
-- JavaScript: 🔄 Work in Progress
+- HTML & CSS: ✅ Completed  <br>
+- Responsive Design: ✅ Completed  <br>
+- JavaScript: 🔄 Work in Progress<br>
 
 ---
 
