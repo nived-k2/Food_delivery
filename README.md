@@ -57,5 +57,22 @@ Foodie-Website/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/foodie-website.git
+   git clone https://github.com/nived-k2/Food_delivey.git
 2.Open index.html in your browser.
+
+💡 What's Next
+ --Complete dynamic cart functionality with JavaScript
+
+ --Add item quantity updates
+
+ --Improve accessibility and keyboard navigation
+
+ --Host the project live on GitHub Pages or Netlify
+
+🙌 Feedback & Contributions
+*Feel free to raise issues or suggest improvements. Contributions are welcome!
+
+📬 Connect with Me
+*If you liked this project, feel free to connect or reach out for collaboration.
+
+<center>© 2025 – Made with ❤️ by Nived K V<center>
