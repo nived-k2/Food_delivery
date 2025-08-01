@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar flex between wrapper">
+            <a href="#" class="foodie">Foodie.</a>
+            <ul class="navlist flex gap-3 ">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="account gap-2 flex">
+                <a href="#" class="cart-icon ">
+                    <i class="ri-shopping-bag-fill"></i>
+                    <span class="cart-value">0</span>
+                </a>
+                <a href="#" class='button'>
+                    Sign in
+                    &nbsp;
+                    <i class="ri-expand-right-fill"></i>
+                </a>
+                <a href="#" class="hamburger"><i class="ri-menu-line"></i></a>
+            </div>
+            <ul class="mobile">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#" class='button smlgap'>
+                        Sign in
+                        &nbsp;
+                        <i class="ri-expand-right-fill"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- section -->
+    <main>
+        <section>
+            <div class="hero-section flex wrapper gap-4">
+                <div class="content">
+
+                    <h1>Enjoy Your Delicious <span>Food</span></h1>
+
+                    <p>we will fill your tummy delicious
+                        food with fast delivery
+                    </p>
+                    <div class="connect flex gap-2">
+                        <a href="#" class="button">Order Now</a>
+                        <a href="#" class="social-icons"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#" class="social-icons"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#" class="social-icons"><i class="ri-instagram-fill"></i></i></a>
+                        <a href="#" class="social-icons"><i class="ri-google-fill"></i></a>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="assets/delivery-boy.png">
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="section-gap wrapper">
+                <div class=" text-centre">
+                    <h5>Our Services</h5>
+                    <h2>How Does It Work?</h2>
+                </div>
+                <div class="service-section">
+                    <div class="service-card">
+                        <div class="card-container">
+                            <img src="assets/easy-to-order.png">
+                        </div>
+                        <h3>Easy To Order</h3>
+                        <p>you only need few steps in ordering the food</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-container">
+                            <img src="assets/best-quality.png">
+                        </div>
+                        <h3>Best Quality</h3>
+                        <p>Not only fast for us in quality is also number one</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-container">
+                            <img src="assets/fast-delivery.png">
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>Delivery that is always onetime even faster</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="text-centre section-3-gap">
+                <h5>our menu</h5>
+                <h2>The Most Popular</h2>
+            </div>
+            <div class="wrapper section-gap food-menu ">
+
+                <div class="card-list text-centre">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/burger.png" alt="">
+                        </div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="card-list text-centre">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/pizza.png" alt="">
+                        </div>
+                        <h4>Pizza</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="card-list text-centre">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/chicken-roll.png" alt="">
+                        </div>
+                        <h4>Chicken Roll</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="card-list text-centre">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/fried-chicken.png" alt="">
+                        </div>
+                        <h4>Fried Chicken</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+                <div class="more-wrapper">
+                    <a href="" class="more-buttn button"><span class="more-text">More</span> <i
+                            class="ri-arrow-down-s-fill"></i></a>
+                </div>
+                <!-- hidden card -->
+
+                <div class="card-list text-centre menu-hide">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/spaghetti.png" alt="">
+                        </div>
+                        <h4>Fried Chicken</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="card-list text-centre menu-hide">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/spring-roll.png" alt="">
+                        </div>
+                        <h4>Fried Chicken</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card-list text-centre menu-hide">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/sandwich.png" alt="">
+                        </div>
+                        <h4>Fried Chicken</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card-list text-centre menu-hide">
+                    <div class="order-card">
+                        <div class="card-img">
+                            <img src="assets/lasagna.png" alt="">
+                        </div>
+                        <h4>Fried Chicken</h4>
+                        <h4 class="price">$10</h4>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+                <!-- cart tab -->
+
+                <div class="cart-tab">
+                    <h3>Your Cart</h3>
+                    <div class="cart-list">
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/burger.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-price">$10</h4>
+                            </div>
+                            <div>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <span class="qty">1</span>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-add-line"></i>
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/burger.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-price">$10</h4>
+                            </div>
+                            <div>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <span class="qty">1</span>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-add-line"></i>
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/burger.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-price">$10</h4>
+                            </div>
+                            <div>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <span class="qty">1</span>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-add-line"></i>
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/burger.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-price">$10</h4>
+                            </div>
+                            <div>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <span class="qty">1</span>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-add-line"></i>
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/burger.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-price">$10</h4>
+                            </div>
+                            <div>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <span class="qty">1</span>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-add-line"></i>
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/burger.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-price">$10</h4>
+                            </div>
+                            <div>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <span class="qty">1</span>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-add-line"></i>
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/burger.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-price">$10</h4>
+                            </div>
+                            <div>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <span class="qty">1</span>
+                                <a href="" class="qty-bttn">
+                                    <i class="ri-add-line"></i>
+                                </a>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="total-container">
+                        <h4>Total:</h4>
+                        <h4 class="cart-total">$0</h4>
+
+                    </div>
+                    <div class="btn-container">
+                        <a href="" class="button close-btn">Close</a>
+                        <a href="" class="button checkout-btn">check out</a>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="wrapper section-3-gap flex review-main">
+                <div class="reviewimage">
+                    <img src="assets/delivery-boy-with-phone.png" alt="">
+                </div>
+                <div class="content  review-text mb-mt-gap">
+                    <h5>Our Reviews</h5>
+                    <h2 style="text-transform: capitalize;">What They Say</h2>
+                    <div class="review-box flex">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide mb-mt-gap profile-1 active">
+                                    <div class="flex gap-2">
+                                        <div class="profile ">
+                                            <img src="assets/profile1.jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4>Guy Hawkins</h4>
+                                            <div>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <p>Foodie is the best. Besides the many delicious meals,
+                                        the service is also very good, especially very fast
+                                        delivery. I highly recommend Foodie to you.</p>
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide mb-mt-gap profile-2">
+                                    <div class="flex gap-2">
+                                        <div class="profile ">
+                                            <img src="assets/profile2.jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4>Sophia Anderson</h4>
+                                            <div>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <p>Fresh ingredients, creative menu, and warm service
+                                        make this spot a hidden gem. Perfect for casual dinners
+                                        or special nights out. Truly a foodie’s paradise!</p>
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide mb-mt-gap profile-3">
+                                    <div class="flex gap-2">
+                                        <div class="profile ">
+                                            <img src="assets/profile3.jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4>Olivia</h4>
+                                            <div>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <p>Delicious dishes, cozy ambiance, and exceptional service.
+                                        A must-visit for food lovers seeking bold flavors and
+                                        unforgettable dining experiences. Highly recommended,
+                                        every bite delights!</p>
+                                    </p>
+                                </div>
+
+
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="app">
+                <div class="app-img">
+                    <img src="assets/mobile-app.png" alt="">
+                </div>
+                <div class="app-main">
+                    <div class="app-content">
+                        <h5>Our Application</h5>
+                        <h2>Simple way To Order Your Food</h2>
+                        <p>Download our app and order your food with just a few clicks.
+                            Enjoy exclusive offers and fast delivery right to your doorstep.</p>
+                        <a href="#" class="button">Get the App</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper gap-above-below">
+                <div class="text-centre">
+                    <h5>Our Subscribe</h5>
+                    <h2>Subscribe To Our Newsletter</h2>
+                    <p class="para text-centre">We recommend you to subscribe our newspaper, drop your email below to
+                        get daily update about us.</p>
+                </div>
+
+                <label class="input-container flex text-centre">
+                    <input type="email" name="email" id="email" class="subscribe-input"
+                        placeholder="Enter your email address" autocomplete="off">
+                    <a href="" class="button">Subscribe</a>
+                </label>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2 class="logo">Foodie.</h2>
+                <p>We will fill your tummy<br> with delicious food with fast delivery.</p>
+                <div class="social-icons-footer">
+                    <a href="#"><i class="ri-twitter-x-line social-icons"></i></a>
+                    <a href="#"><i class="ri-instagram-fill social-icons"></i></a>
+                    <a href="#"><i class="ri-facebook-box-fill social-icons"></i></a>
+                    <a href="#"><i class="ri-google-fill social-icons"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Our Menu</h3>
+                <ul>
+                    <li><a href="#">Special</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Why Foodie</a></li>
+                    <li><a href="#">Partner with us</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">FAQ’s</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Support center</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Foodie. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
