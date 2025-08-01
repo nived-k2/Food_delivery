@@ -75,4 +75,4 @@ Foodie-Website/
 📬 Connect with Me
 *If you liked this project, feel free to connect or reach out for collaboration.
 
-<center>© 2025 – Made with ❤️ by Nived K V</center>
+                                       © 2025 – Made with ❤️ by Nived K V
