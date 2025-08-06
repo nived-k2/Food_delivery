@@ -10,7 +10,7 @@ Welcome to **Foodie**, a beautifully designed and fully responsive food ordering
 ## 📽️ Demo 
 
 You can check the website here:  
-🔗 [View](https://drive.google.com/file/d/1Bq4gWjzypkIEoxMjI2_FXHcKzjLi82Bf/view?usp=sharing)
+🔗 [View](https://nived-k2.github.io/Food_delivery/)
 
 ---
 
