@@ -226,12 +226,16 @@ h3 {
 
 /* section 3 */
 .order-card {
-    min-width: 127px;
+    min-width: 193px;
+     /* Two per row, subtracting gap */
+    max-width: 400px; /* Optional, to limit very large screens */
     border: solid 2px var(--gold-finder);
     border-radius: 10px;
     box-shadow: 2px 2px 2px #00000067,
         2px 2px 2px #00000067 inset;
     transition: .3s ease-in-out all;
+    gap: 3rem;
+    
 }
 
 .order-card img {
@@ -242,15 +246,22 @@ h3 {
 .food-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: center;
+    
+   
+
 
 
 }
 
 .card-list {
-    flex: 1 1 22%;
+gap: 4rem;
+display: flex;
+justify-content: center;
 
-    text-align: center;
+flex-wrap: wrap;
+text-align: center;
+
 }
 
 .section-3-gap {
@@ -286,19 +297,20 @@ h4 {
     
     background-color: var(--hinty-yello);
     position: fixed;
-    inset: 0 -500 0 auto;
+    inset: 0 -500px 0 auto;
     width: 25rem;
     z-index: 1000;
     box-shadow: -4px 0 16px rgba(0,0,0,0.12);
-    transition: right 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-block: .5rem;
+    transition: .3s ease-in-out all;
 }
 .cart-tab-active{
     inset: 0 0 0 auto;
+    
 }
 .cart-list{
     flex: 1;
@@ -316,9 +328,14 @@ width: 0;
 .item{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: .8rem;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
     flex: 1;
+    transition: .5s ease-in-out;
+}
+.slide-out{
+    transform: translateX(50%)
 }
 .item .item-image img{
     width: 5rem;
@@ -589,8 +606,10 @@ footer .social-icons-footer i{
         flex-direction: column;
         position: absolute;
         top: 20%;
-        left: 100%;
-
+        display: none;
+        right: auto;
+         z-index: 9999;
+      
         gap: 2rem;
         background-color: var(--pure-white);
         border: solid 2px var(--gold-finder);
@@ -604,7 +623,9 @@ footer .social-icons-footer i{
 
     .js-active-menu {
         display: flex;
-        transform: translate(-50%);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 
     }
 
@@ -637,11 +658,27 @@ footer .social-icons-footer i{
     h4{
         font-size:1rem;
     }
-    .card-list {
-        flex: 1 1 45%;
-        margin-top: .5rem;
+   .card-list {
+        max-width: 100%;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
+    .order-card {
+        flex: 1 1 calc(50% - 1rem); /* Correct */
+        max-width: calc(50% - 1rem) !important; /* Correct */
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+    .food-menu{
+        padding: 0;
+    }
+
+.order-card img {
+    width: 80px; /* reduce image size */
+}
+    
     /* section 4 */
     .mb-mt-gap {
         margin-top: 1.5rem;
@@ -702,7 +739,7 @@ width: 100%;      /* Use width instead of min-width */
     font-size: .4rem;
 }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:300px){
     .footer-column{
         display: none;
     }
