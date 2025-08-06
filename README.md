@@ -32,6 +32,7 @@ You can check the website here:
 - **CSS3**
 - **JavaScript**
 - **Google Fonts & Icons**
+- ** Local API Simulation**
 
 ---
 
@@ -42,13 +43,14 @@ Foodie-Website/
 ├── index.html # Main HTML file<br>
 ├── style.css # Custom CSS styles<br>
 ├── script.js # JavaScript functionality (in progress)<br>
+├── products.js #local api  
 └── README.md # Project description and usage<br>
 
 ## 📅 Current Status
 
 - HTML & CSS: ✅ Completed  <br>
 - Responsive Design: ✅ Completed  <br>
-- JavaScript: 🔄 Work in Progress<br>
+- JavaScript: ✅ Completed<br>
 
 ---
 
