@@ -660,7 +660,7 @@ footer .social-icons-footer i{
     }
    .card-list {
         max-width: 100%;
-        gap: 1rem;
+        gap: .2rem;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -668,7 +668,7 @@ footer .social-icons-footer i{
     .order-card {
         flex: 1 1 calc(50% - 1rem); /* Correct */
         max-width: calc(50% - 1rem) !important; /* Correct */
-        padding: 0.5rem;
+        padding: 0rem;
         box-sizing: border-box;
     }
     .food-menu{
