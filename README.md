@@ -4,14 +4,13 @@
 
 Welcome to **Foodie**, a beautifully designed and fully responsive food ordering website created using **HTML, CSS**, and **JavaScript**. It is designed to showcase a modern UI/UX layout for a food delivery or restaurant business. 
 
-> 🎯 **Note:** JavaScript functionality (like dynamic cart updates and menu actions) is in progress and will be completed soon!
 
 ---
 
-## 📽️ Demo Video
+## 📽️ Demo 
 
-Watch a quick demo of the website in action:  
-🔗 [View Demo on Google Drive](https://drive.google.com/file/d/1Bq4gWjzypkIEoxMjI2_FXHcKzjLi82Bf/view?usp=sharing)
+You can check the website here:  
+🔗 [View](https://drive.google.com/file/d/1Bq4gWjzypkIEoxMjI2_FXHcKzjLi82Bf/view?usp=sharing)
 
 ---
 
@@ -19,7 +18,7 @@ Watch a quick demo of the website in action:
 
 - ✅ Fully responsive layout for mobile, tablet, and desktop
 - ✅ Modern UI using Flexbox & CSS variables
-- ✅ Add-to-cart UI (JavaScript integration in progress)
+- ✅ Add-to-cart UI
 - ✅ Sliding menu cards
 - ✅ Reusable CSS utility classes
 - ✅ Interactive hover effects and animation
@@ -31,7 +30,7 @@ Watch a quick demo of the website in action:
 
 - **HTML5**
 - **CSS3**
-- **Vanilla JavaScript** (In Progress)
+- **JavaScript**
 - **Google Fonts & Icons**
 
 ---
